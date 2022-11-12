@@ -88,16 +88,16 @@
 							"// HOMEWORK push workspace into GitLab\r",
 							"\r",
 							"pm.test(\"Verify id equals to <id> for [member-of] request\", function(){\r",
-							"    pm.expect(responseData[1].id).to.equal('ACnUTYQBKb-6GVMlGhdN');\r",
+							"    pm.expect(responseData[1].id).to.equal('lHbmbIQBriPkCenV75Qh');\r",
 							"})\r",
 							"\r",
 							"pm.test(\"Verify userId equals to <userId> for [member-of] request\", function(){\r",
 							"    pm.expect(responseData[1].userId).to.equal('5xdSSIQBeIYl0G_YPk47');\r",
 							"})\r",
 							"\r",
-							"pm.test(\"Verify description equals to <description> for [member-of] request\", function(){\r",
-							"    pm.expect(responseData[1].description).to.equal('Checking\\nSavings\\nway2save');\r",
-							"})\r",
+							"// pm.test(\"Verify description equals to <description> for [member-of] request\", function(){\r",
+							"//     pm.expect(responseData[1].description).to.equal('Checking\\nSavings\\nway2save');\r",
+							"// })\r",
 							"\r",
 							"console.log(responseData[1].id)\r",
 							"\r",
@@ -296,7 +296,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": \"\",\r\n    \"created\": \"2022-11-09T01:59:02.807Z\",\r\n    \"lastModified\": \"2022-11-09T01:59:02.807Z\",\r\n    \"userId\": \"{{userId}}\",\r\n    \"workspaceId\": \"{{workspaceId}}\",\r\n    \"name\": \"\",\r\n    \"description\": \";D;LDLAN;erjowfaw'afj\",\r\n    \"type\": \"DESIGN\",\r\n    \"tags\": []\r\n}"
+					"raw": "{\r\n    \"id\": \"\",\r\n    \"created\": \"2022-11-09T01:59:02.807Z\",\r\n    \"lastModified\": \"2022-11-09T01:59:02.807Z\",\r\n    \"userId\": \"{{userId}}\",\r\n    \"workspaceId\": \"{{workspaceId}}\",\r\n    \"name\": \"Saving Account\",\r\n    \"description\": \"Saving Account description\",\r\n    \"type\": \"DESIGN\",\r\n    \"tags\": []\r\n}"
 				},
 				"url": {
 					"raw": "https://api.octoperf.com/design/projects",
